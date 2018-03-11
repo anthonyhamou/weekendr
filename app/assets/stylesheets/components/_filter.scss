@@ -1,0 +1,121 @@
+.filter-container {
+  position: absolute;
+  border-bottom: 1px solid $medium-gray;
+  left: 0px;
+  right: 0px;
+  top: 61px;
+  height: 70px;
+  background-color: $white;
+  padding: 10px 45px;
+  .filter-form {
+    padding-top: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.filter-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-content-whithout-button {
+  display: flex;
+}
+
+.format-button-filter {
+  line-height: 1em !important;
+}
+
+.departure-filter {
+  width: 400px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  // flex-direction: column;
+  // align-items: flex-end;
+}
+
+// .departure-title {
+//   justify-content: left;
+// }
+
+#go_day, #return_day {
+  background-color: $white;
+  color: $dark-gray;
+  width: 90px ;
+  border: 1px solid $yellow;
+  padding: 1px 10px;
+  appearance: none;
+  &:hover {
+    background-color: $yellow;
+    color: $dark-gray;
+  }
+  &:focus {
+    outline: 0;
+  }
+}
+
+.slider-content {
+  display: flex;
+}
+
+#add-margin {
+  margin-top: 8px;
+}
+
+.departure-title {
+  font-size: 14px;
+  margin-right: 15px;
+}
+
+// .environment {
+//   display: flex;
+//   justify-content: space-around;
+//   align-items: center;
+//   margin: 10px 0;
+// }
+
+.format-button-filter {
+  background-color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  color: $dark-gray;
+  justify-content: center;
+  opacity: 0.9;
+  height: 35px ;
+  width: 110px !important;
+  // padding: 4px 15px !important;
+  border: 1px solid $medium-gray;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+
+.research-button.filter:focus {
+  color: $dark-gray;
+}
+
+.research-button-filter {
+  color: $dark-gray;
+  background-color: $white;
+  border-bottom-left-radius: 2px ;
+  border-bottom-right-radius: 2px ;
+  border-top-left-radius: 2px ;
+  border-top-right-radius: 2px ;
+  height: 30px ;
+  // width: 100px ;
+  border: 1px solid $dark-gray;
+  font-size: 14px;
+}
+
+.research-button-filter:hover {
+  background-color: $light-gray;
+}
+
+.button-center {
+  padding-top: 15px;
+}

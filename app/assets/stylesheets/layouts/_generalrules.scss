@@ -1,0 +1,53 @@
+button:focus {
+    outline: 0;
+}
+
+body {
+  background-color: #F4F4F4;
+}
+
+h2 {
+  color: $dark-gray;
+  font-size: 28px;
+}
+
+h1, h2, h3 {
+  margin-top: 6px;
+  margin-bottom: 0px;
+}
+
+
+.container_titles {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 25px;
+}
+
+.page-content-margin-navbar {
+  padding-top: $navbar-height;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+input {
+  border: 0px;
+  color: black;
+}
+
+input:focus {
+  color: black;
+  opacity: 1;
+}
+
+.modal-content {
+  .modal-header {
+    color: $yellow;
+  }
+
+}
